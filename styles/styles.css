@@ -1,0 +1,141 @@
+* { box-sizing: border-box; }
+
+.modern {font-family: Helvetica, Arial, sans-serif;}
+
+header {
+  background: SteelBlue;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 10rem;
+}
+
+header h1 {
+  color: White;
+  font-size: 300%;
+}
+
+header p {
+  color: White;
+  font-size: 150%;
+}
+
+.top-nav ol {
+  background: LightGrey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 10rem;
+  margin: 0;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.top-nav .link {
+  color: Black;
+  display: inline-block;
+}
+
+.top-nav .link a:after {
+  display: inline-block;
+  content: '/';
+  font-size: 80%;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+.top-nav li:last-child a:after{
+    content: '';
+}
+
+.link {
+  color: CornflowerBlue;
+}
+
+.main-section {
+  padding: 5rem 10rem 5rem;
+}
+
+.main-section::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.main-articles {
+  float: left;
+  height: 50rem;
+  width: 50rem;
+}
+
+span {
+  color: CornflowerBlue;
+}
+
+.main-articles .main-about .title {
+  color: CornflowerBlue;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.main-articles .main-about .quote {
+  font-size: 150%;
+  color: CornflowerBlue;
+}
+
+.main-articles .main-story .title {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+aside.sidebar {
+  font-family: Tahoma, sans-serif;
+  float: right;
+  width: 20rem;
+}
+
+section.sidebar-section {
+  margin-bottom: 2rem;
+}
+
+section.sidebar-section a {
+  color: Blue;
+}
+
+section.sidebar-section figure {
+  margin: 0;
+}
+
+section.sidebar-section figcaption {
+  color: Red;
+}
+
+.main-section::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+footer {
+  color: White;
+  background: DarkSlateGrey ;
+  width: 100%;
+  text-align: center;
+  padding: 5rem 20rem 5rem;
+}
+
+.bottom-nav .link {
+  color: White;
+  display: inline-block;
+  font-weight:  bold;
+}
+
+.bottom-nav .link a::after {
+  display: inline-block;
+  content: '/';
+  font-size: 80%;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+.bottom-nav li:last-child a:after{
+  content: '';
+}
