@@ -2,8 +2,18 @@
 
 .modern {font-family: Helvetica, Arial, sans-serif;}
 
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left:0
+}
+
 header {
-  background: SteelBlue;
+  background: Green;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 10rem;
@@ -37,9 +47,9 @@ header p {
 .top-nav .link a:after {
   display: inline-block;
   content: '/';
-  font-size: 80%;
+  font-size: 140%;
   font-weight: bold;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .top-nav li:last-child a:after{
@@ -47,7 +57,7 @@ header p {
 }
 
 .link {
-  color: CornflowerBlue;
+  color: Blue;
 }
 
 .main-section {
@@ -67,18 +77,18 @@ header p {
 }
 
 span {
-  color: CornflowerBlue;
+  color: Blue;
 }
 
 .main-articles .main-about .title {
-  color: CornflowerBlue;
+  color: Blue;
   font-weight: bold;
   font-size: 125%;
 }
 
 .main-articles .main-about .quote {
   font-size: 150%;
-  color: CornflowerBlue;
+  color: Blue;
 }
 
 .main-articles .main-story .title {
@@ -131,9 +141,9 @@ footer {
 .bottom-nav .link a::after {
   display: inline-block;
   content: '/';
-  font-size: 80%;
+  font-size: 140%;
   font-weight: bold;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .bottom-nav li:last-child a:after{
